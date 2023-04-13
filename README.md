@@ -13,6 +13,7 @@ Yearly change and percent change conditional formatting correspond with one anot
 The for each ws in worksheets function enables VBA to run all three sheets in one go 
 
 Functions WorksheetFunction.Max & WorksheetFunction.Min calculate greatest % increase, decrease, and greatest volume
+
 ***Min/Max VBA Functions resource: https://www.wallstreetmojo.com/vba-max/
 
 Corresponding ticker for greatest % increase, decrease, and greatest volume populated using If...Then...Elseif statements
