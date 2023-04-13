@@ -7,12 +7,13 @@ Values for above ^^ columns generated using for loops
 If...Then...End if statements for conditional formatting
 
 For the Excel sheet to loop successfully, logic must flow (i.e, conditional formatting loop being below the summary table loop)
+
 Yearly change and percent change conditional formatting correspond with one another (i.e., if the yearly change value is negative, then the percent change value is also negative, resulting in the same color code)
 
-VBA runs for all sheets in one go because of the for each ws in worksheets function
+The for each ws in worksheets function enables VBA to run all three sheets in one go 
 
 Functions WorksheetFunction.Max & WorksheetFunction.Min calculate greatest % increase, decrease, and greatest volume
-***Min/Max VBA Functions resource:https://www.wallstreetmojo.com/vba-max/
+***Min/Max VBA Functions resource: https://www.wallstreetmojo.com/vba-max/
 
 Corresponding ticker for greatest % increase, decrease, and greatest volume populated using If...Then...Elseif statements
 
