@@ -55,7 +55,7 @@ Sub MultipleYearData()
    Next i
 
 
-   'J loop sets conditional formatting for yearly change and percent change and ends at the last row of the summary table.
+'J loop sets conditional formatting for yearly change and percent change and stops at the last row of the summary table.
 
 
    For j = 2 To 3001
