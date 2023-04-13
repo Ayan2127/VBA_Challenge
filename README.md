@@ -14,7 +14,7 @@ The for each ws in worksheets function enables VBA to run all three sheets in on
 
 Functions WorksheetFunction.Max & WorksheetFunction.Min calculate greatest % increase, decrease, and greatest volume
 
-***Min/Max VBA Functions resource: https://www.wallstreetmojo.com/vba-max/
+***Min/Max VBA functions source: https://www.wallstreetmojo.com/vba-max/
 
 Corresponding ticker for greatest % increase, decrease, and greatest volume populated using If...Then...Elseif statements
 
